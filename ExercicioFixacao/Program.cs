@@ -8,6 +8,10 @@ namespace ExercicioFixacao
     {
         static void Main(string[] args)
         {
+            // Proposta de exercicio:
+            // Criar um arquivo csv com os dados "produto, valor, quantidade"
+            // Criar um outro arquivo a partir do primeiro em uma nova pasta
+            // Este outro arquivo deve conter "produto, valor total"
             try
             {
                 // Local da pasta principal
