@@ -7,13 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File-FileInfo", "AulaArquiv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStream-StreamReader", "FileStream-StreamReader\FileStream-StreamReader.csproj", "{4E4D9ACA-7FE2-4B0C-92AA-D5895879EADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter", "StreamWriter\StreamWriter.csproj", "{1BAE1B73-1990-4C13-AB43-C13BB76FA368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriter", "StreamWriter\StreamWriter.csproj", "{1BAE1B73-1990-4C13-AB43-C13BB76FA368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory-DirectoryInfo", "Directory-DirectoryInfo\Directory-DirectoryInfo.csproj", "{6140B40E-2F0D-44FC-B4F2-704B762A6825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory-DirectoryInfo", "Directory-DirectoryInfo\Directory-DirectoryInfo.csproj", "{6140B40E-2F0D-44FC-B4F2-704B762A6825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path", "Path\Path.csproj", "{40A514B6-8771-4CE4-824B-23C94028D27C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Path", "Path\Path.csproj", "{40A514B6-8771-4CE4-824B-23C94028D27C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao", "ExercicioFixacao\ExercicioFixacao.csproj", "{45D11CEE-DC93-44C2-A0C5-1225334C7F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioFixacao", "ExercicioFixacao\ExercicioFixacao.csproj", "{45D11CEE-DC93-44C2-A0C5-1225334C7F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AulasNelio", "AulasNelio", "{9DE0B021-3371-4F50-B421-69F68B6F39C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AulasDio", "AulasDio", "{19964123-27B1-43EE-BB29-B1421C488EE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AulaArquivosDio", "AulaArquivosDio\AulaArquivosDio.csproj", "{D68C1277-DC73-4334-8127-1F1AF7291916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +51,22 @@ Global
 		{45D11CEE-DC93-44C2-A0C5-1225334C7F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D11CEE-DC93-44C2-A0C5-1225334C7F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D11CEE-DC93-44C2-A0C5-1225334C7F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68C1277-DC73-4334-8127-1F1AF7291916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68C1277-DC73-4334-8127-1F1AF7291916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68C1277-DC73-4334-8127-1F1AF7291916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68C1277-DC73-4334-8127-1F1AF7291916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A3A7F60-4C6F-44D0-B880-2CFAB4738F14} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{4E4D9ACA-7FE2-4B0C-92AA-D5895879EADC} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{1BAE1B73-1990-4C13-AB43-C13BB76FA368} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{6140B40E-2F0D-44FC-B4F2-704B762A6825} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{40A514B6-8771-4CE4-824B-23C94028D27C} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{45D11CEE-DC93-44C2-A0C5-1225334C7F64} = {9DE0B021-3371-4F50-B421-69F68B6F39C7}
+		{D68C1277-DC73-4334-8127-1F1AF7291916} = {19964123-27B1-43EE-BB29-B1421C488EE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5A50A03-8B59-4F22-A574-9CA8A080D1D8}
